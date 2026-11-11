@@ -1,0 +1,8 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b15ad28d_002D27d8_002D4da8_002Da32c_002Dd6c9c1e7acab/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetColor_ReturnsWhite_ForAnUntouchedCell" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::390D5810-D455-19EA-7274-4647D57AE0FC::net10.0::LangtonsAnt.Tests.WorldTests.GetColor_ReturnsWhite_ForAnUntouchedCell&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::390D5810-D455-19EA-7274-4647D57AE0FC::net10.0::LangtonsAnt.Tests.WorldTests.GetColor_ReturnsColorSetForCell&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::390D5810-D455-19EA-7274-4647D57AE0FC::net10.0::LangtonsAnt.Tests.AntTests.Step_TurnsRightOnWhiteCell&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
