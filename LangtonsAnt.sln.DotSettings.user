@@ -4,5 +4,6 @@
     &lt;TestId&gt;NUnit3x::390D5810-D455-19EA-7274-4647D57AE0FC::net10.0::LangtonsAnt.Tests.WorldTests.GetColor_ReturnsWhite_ForAnUntouchedCell&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::390D5810-D455-19EA-7274-4647D57AE0FC::net10.0::LangtonsAnt.Tests.WorldTests.GetColor_ReturnsColorSetForCell&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::390D5810-D455-19EA-7274-4647D57AE0FC::net10.0::LangtonsAnt.Tests.AntTests.Step_TurnsRightOnWhiteCell&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::390D5810-D455-19EA-7274-4647D57AE0FC::net10.0::LangtonsAnt.Tests.AntTests.Step_TurnsRightFromEastOnWhiteCell&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

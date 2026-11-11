@@ -16,24 +16,22 @@ public sealed class Ant
 
     public AntStep Step()
     {
-        
         var position = Position;
         var color = _world.GetColor(position);
         var newColor = color == CellColor.White
             ? CellColor.Black
             : CellColor.White;
-        Position to;
-        if (color == CellColor.White)
+        var turn = color == CellColor.White ? 1 : 3;
+        Direction = (Direction)(((int)Direction + turn) % 4);
+        var to = Direction switch
         {
-            Direction = Direction.East;
-            to = new Position(position.X + 1, position.Y);
-        }
-        else
-        {
-            Direction = Direction.West;
-            to = new Position(position.X - 1, position.Y);
-        }
-        Position = to;
+            Direction.North => new Position(position.X, position.Y - 1),
+            Direction.East  => new Position(position.X + 1, position.Y),
+            Direction.South => new Position(position.X, position.Y + 1),
+            Direction.West  => new Position(position.X - 1, position.Y),
+            _ => throw new InvalidOperationException()
+        };
+
         var toColor = _world.GetColor(to);
         return new AntStep(position, to, Direction, newColor, toColor);
     }
